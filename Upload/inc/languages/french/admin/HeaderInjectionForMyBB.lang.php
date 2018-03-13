@@ -14,8 +14,8 @@
 
 // plugin_info
 
-$l['HeaderInjectionForMyBB_Name'] = 'Header Injection for MyBB';
-$l['HeaderInjectionForMyBB_Desc'] = 'Add code (HTML, CSS, or JS -- no PHP or MyBB template codes) to page header';
+$l['HeaderInjectionForMyBB_Name'] = 'Header Injection pour MyBB';
+$l['HeaderInjectionForMyBB_Desc'] = 'Ajouter du code (HTML, CSS ou JS - aucun code de modèle PHP ou MyBB) à l en-tête de la page';
 $l['HeaderInjectionForMyBB_Web'] = 'http://www.jimmyscode.com/php/header-injection-mybb-plugin/';
 $l['HeaderInjectionForMyBB_Auth'] = 'Jimmy Pe&ntilde;a & updated by Vintagedaddyo';
 $l['HeaderInjectionForMyBB_AuthSite'] = 'http://community.mybb.com/user-6029.html';
@@ -26,19 +26,19 @@ $l['HeaderInjectionForMyBB_Compat'] = '18*';
 //  create plugin settings group
 
 $l['HeaderInjectionForMyBB_name_0'] = 'himybb_group';
-$l['HeaderInjectionForMyBB_title_0'] = 'Header Injection for MyBB';
-$l['HeaderInjectionForMyBB_description_0'] = 'Settings for Header Injection for MyBB plugin';
+$l['HeaderInjectionForMyBB_title_0'] = 'Header Injection pour MyBB';
+$l['HeaderInjectionForMyBB_description_0'] = 'Paramètres pour l injection d en-tête pour le plug-in MyBB';
 
 //  settings 1
 
 $l['HeaderInjectionForMyBB_name_1'] = 'himybb_plugin_enabled';
-$l['HeaderInjectionForMyBB_title_1'] = 'Enable Header Injection for MyBB plugin?';
-$l['HeaderInjectionForMyBB_description_1'] = 'Click Yes to enable the plugin, No to disable.';
+$l['HeaderInjectionForMyBB_title_1'] = 'Activer l injection d en-tête pour le plugin MyBB?';
+$l['HeaderInjectionForMyBB_description_1'] = 'Cliquez sur Oui pour activer le plugin, Non pour désactiver.';
 
 //  settings 2
 
 $l['HeaderInjectionForMyBB_name_2'] = 'himybb_inject';
-$l['HeaderInjectionForMyBB_title_2'] = 'Code to be injected';
-$l['HeaderInjectionForMyBB_description_2'] = 'Enter code here (no PHP or MyBB template codes). <strong>If you leave this blank, the plugin will not do anything even if you click Yes above.</strong>';
+$l['HeaderInjectionForMyBB_title_2'] = 'Code à injecter';
+$l['HeaderInjectionForMyBB_description_2'] = 'Entrez le code ici (aucun code de modèle PHP ou MyBB). <strong> Si vous laissez ce champ vide, le plugin ne fera rien même si vous cliquez sur Oui au-dessus. </strong>';
 
 ?>

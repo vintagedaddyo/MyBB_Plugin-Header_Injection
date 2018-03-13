@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.0.1
+ * Plugin Version: 1.0.2
  * 
  */
 
@@ -63,12 +63,12 @@ function HeaderInjectionForMyBB_activate() {
   // ***********************************************
 
   $himybb_group = array(
-    "gid" => "NULL", 
+    "gid" => "0", 
     "name" => $lang->HeaderInjectionForMyBB_name_0,
     "title" => $lang->HeaderInjectionForMyBB_title_0,
     "description" => $lang->HeaderInjectionForMyBB_description_0, 
     "disporder" => "1", 
-    "isdefault" => "no"
+    "isdefault" => "0"
   );
 
   $db->insert_query("settinggroups", $himybb_group);
@@ -79,7 +79,7 @@ function HeaderInjectionForMyBB_activate() {
   // ***********************************************
 
   $himybb_setting = array(
-    "sid" => "NULL", 
+    "sid" => "0", 
     "name" => $lang->HeaderInjectionForMyBB_name_1,
     "title" => $lang->HeaderInjectionForMyBB_title_1,
     "description" => $lang->HeaderInjectionForMyBB_description_1,  
@@ -93,7 +93,7 @@ function HeaderInjectionForMyBB_activate() {
 
   // code to be injected
   $himybb_setting = array(
-    "sid" => "NULL", 
+    "sid" => "0", 
     "name" => $lang->HeaderInjectionForMyBB_name_2,
     "title" => $lang->HeaderInjectionForMyBB_title_2,
     "description" => $lang->HeaderInjectionForMyBB_description_2, 
